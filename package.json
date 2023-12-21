@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon apiEstate/index.js",
-    "start": "node apiEstate/index.js"
+    "start": "node apiEstate/index.js",
+    "build": "npm install && npm install --prefix clientEstate && npm run build --prefix clientEstate"
   },
   "keywords": [],
   "author": "",
